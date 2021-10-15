@@ -51,12 +51,6 @@ GET http://localhost:3000/envios/pendientes
 PUT http://localhost:3000/envios/${idEnvio}/entregado
 ```
 
-#### Respuesta
-
-```text
-Success: Envío con el id ${idEnvio} fue entregado correctamente.
-```
-
 ### Obtener un envío en particular
 
 > Obtener mas información acerca de un envio en particular.
