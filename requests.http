@@ -1,0 +1,16 @@
+GET http://localhost:3000/envios/pendientes
+
+###
+POST http://localhost:3000/envios
+Content-Type: application/json
+
+{
+    "destino": "MDZ",
+    "email": "mariano@jaliff.com.ar"
+}
+
+###
+PUT http://localhost:3000/envios/kdfxq6h5/entregado
+
+###
+GET http://localhost:3000/envio/kdfxq6h5
